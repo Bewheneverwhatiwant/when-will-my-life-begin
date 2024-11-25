@@ -4,9 +4,10 @@ const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 5rem;
   min-height: 100vh;
+  padding: 0.5rem
 `;
 
 export default function Container({

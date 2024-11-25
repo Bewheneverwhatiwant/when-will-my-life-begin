@@ -1,12 +1,24 @@
 import './RecetCss.tsx'
 import Container from './components/Container.tsx';
-import CustomFont from './components/CustomFont.tsx';
+import CustomColumn from './components/CustomColumn.tsx';
+
+import Header from './maincomponents/header.tsx';
+import Profile from './maincomponents/profile.tsx';
+import JobAndTool from './maincomponents/jobAndTool.tsx';
+import Awards from './maincomponents/awards.tsx';
+import Clubs from './maincomponents/clubs.tsx';
 
 function App() {
 
   return (
     <Container>
-      <CustomFont $color='blue' $font='1rem'>홈화면!</CustomFont>
+      <CustomColumn $width='100%' $alignitems='center' $justifycontent='flex-start'>
+        <Header />
+        <Profile />
+        <JobAndTool />
+        <Awards />
+        <Clubs />
+      </CustomColumn>
     </Container>
   )
 }

@@ -11,7 +11,6 @@ interface CustomBoxProps {
 	$margin?: string;
 	$margintop?: string;
 	$padding?: string;
-	$paddingbottom?: string;
 	$backgroundcolor?: string;
 	$color?: string;
 	$border?: string;
@@ -19,6 +18,7 @@ interface CustomBoxProps {
 	$overflowy?: string;
 	$overflowx?: string;
 	$zindex?: string;
+	$boxshadow?: string;
 }
 
 const CustomBox = styled.div<CustomBoxProps>`
@@ -32,7 +32,6 @@ const CustomBox = styled.div<CustomBoxProps>`
   margin: ${(props) => props.$margin || "0"};
   margin-top: ${(props) => props.$margintop || '0'};
   padding: ${(props) => props.$padding || "0"};
-  padding-bottom: ${(props) => props.$paddingbottom || "0"};
   background: ${(props) => props.$backgroundcolor || "#1E1E1E"};
   color: ${(props) => props.color || "black"};
   border: ${(props) => props.$border || "none"};
@@ -40,6 +39,7 @@ const CustomBox = styled.div<CustomBoxProps>`
   overflow-x: ${(props) => props.$overflowx || "auto"};
   overflow-y: ${(props) => props.$overflowy || "auto"};
   z-index: ${(props) => props.$zindex || '3'};
+  box-shadow: ${(props) => props.$boxshadow || "none"};
 
 
   /* 스크롤바 스타일 */

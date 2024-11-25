@@ -14,10 +14,10 @@ function Clubs() {
 			<CustomBox $width='100%' $height='auto' $padding='1rem' $borderradius='0.5rem' $alignitems='flex-start' $justifycontent='center'
 				$boxshadow="0 4px 12px rgba(0, 0, 0, 0.1)" $backgroundcolor='white' $gap='0.5rem'>
 				<CustomFont $color='black' $font='0.8rem'>2022.09~2023.03 GDSC HUFS</CustomFont>
-				<CustomFont $color='black' $font='0.8rem'>2023.01~2023.12 LikeLoon 11th</CustomFont>
+				<CustomFont $color='black' $font='0.8rem'>2023.01~2023.12 LikeLion 11th (아기사자)</CustomFont>
 				<CustomFont $color='black' $font='0.8rem'>2023.03~2023.07 SOPT 32th Android</CustomFont>
 				<CustomFont $color='black' $font='0.8rem'>2023.03~2023.07 Gnuvil</CustomFont>
-				<CustomFont $color='black' $font='0.8rem'>2024.01~2024.12 LikeLion 12th</CustomFont>
+				<CustomFont $color='black' $font='0.8rem'>2024.01~2024.12 LikeLion 12th (어른사자)</CustomFont>
 				<CustomFont $color='black' $font='0.8rem'>2024.09~2024.12 UMC 7th</CustomFont>
 			</CustomBox>
 		</CustomColumn>
